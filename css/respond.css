@@ -1,0 +1,64 @@
+@charset "utf-8";
+/**************************************************
+	
+	Respond.css ( ver 1.0.2 )
+	
+**************************************************/
+/**************************************************
+	Setting Device Width
+**************************************************/
+#_device_pc{display: block;} #_device_ta{display: none;} #_device_mo{display: none;} .__pc{display: block !important;} .__ta{display: none !important;} .__mo{display: none;}
+@media screen and (min-width: 750px) and (max-width: 1024px){#_device_pc{display: none;} #_device_ta{display: block;} #_device_mo{display: none;} .__pc{display: none !important;} .__ta{display: block !important;} .__mo{display: none;}}
+@media screen and (max-width: 750px){#_device_pc{display: none;} #_device_ta{display: none;} #_device_mo{display: block;} .__pc{display: none !important;} .__ta{display: none;} .__mo{display: block !important;} }
+
+/**************************************************
+	Layout
+**************************************************/
+@media screen and (min-width: 750px) and (max-width: 1024px){
+	
+	#header{  }
+	#gnb{  }
+	#lnb{  }
+	#aside{  }
+	#footer{  }
+	#content{  }
+	
+}
+@media screen and (max-width: 750px){
+	
+	#header{  }
+	#gnb{  }
+	#lnb{  }
+	#aside{  }
+	#footer{  }
+	#content{  }
+	
+}
+
+/**************************************************
+	Main
+**************************************************/
+@media screen and (min-width: 750px) and (max-width: 1024px){
+	
+	#main{  }
+	
+}
+@media screen and (max-width: 750px){
+	
+	#main{  }
+	
+}
+
+/**************************************************
+	Sub
+**************************************************/
+@media screen and (min-width: 750px) and (max-width: 1024px){
+	
+	#sub{  }
+	
+}
+@media screen and (max-width: 750px){
+	
+	#sub{  }
+	
+}
